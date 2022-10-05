@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200;400;600;700&display=swap');
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.headerMain,
+footer {
+    background-color: black;
+    color: white;
+    padding: 0px 20px 0px 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menuItems {
+    display: flex;
+    list-style: none;
+
+}
+
+.menuItem a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: medium;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+.menuItem a:hover {
+    color: #9926bd;
+}
+
+.menuHamburguer {
+    display: none;
+}
+
+.landingContainer {
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.322) 25%), url('../assets/capa_espada_do_abismo_cropped.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#gameLogo {
+    filter: drop-shadow(8px 5px 8px #72198C);
+}
+
+.btn {
+    background: #9926bd;
+    background-image: -webkit-linear-gradient(top, #9926bd, #4c2bb8);
+    background-image: -moz-linear-gradient(top, #9926bd, #4c2bb8);
+    background-image: -ms-linear-gradient(top, #9926bd, #4c2bb8);
+    background-image: -o-linear-gradient(top, #9926bd, #4c2bb8);
+    background-image: linear-gradient(to bottom, #9926bd, #4c2bb8);
+    -webkit-border-radius: 15;
+    -moz-border-radius: 15;
+    border-radius: 15px;
+    font-family: 'Gemunu Libre', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border: none;
+    width: 130px;
+}
+
+.btn:hover {
+    background: #3ad632;
+    background-image: -webkit-linear-gradient(top, #3ad632, #32b82b);
+    background-image: -moz-linear-gradient(top, #3ad632, #32b82b);
+    background-image: -ms-linear-gradient(top, #3ad632, #32b82b);
+    background-image: -o-linear-gradient(top, #3ad632, #32b82b);
+    background-image: linear-gradient(to bottom, #3ad632, #32b82b);
+    text-decoration: none;
+    box-shadow: 3px 3px 5px black;
+    color: #9926bd;
+    font-weight: 700;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-weight: 300;
+}

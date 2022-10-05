@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.headerMain {
+    height: 7vh;
+}
+
+main {
+    height: 85vh;
+}
+
+footer {
+    height: 8vh;
+}

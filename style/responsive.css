@@ -1,0 +1,22 @@
+@media (max-width: 570px) {
+    .menuHamburguer {
+        display: block;
+        font-size: x-large;
+        cursor: pointer;
+    }
+
+    .menuItems {
+        display: none;
+    }
+
+    .landingContainer {
+        background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.322) 25%), url('../assets/mobile-capa_espada_do_abismo_cropped.png');
+        background-size: cover;
+    }
+
+    body {
+        min-width: 350px;
+        max-height: 100%;
+    }
+
+}
