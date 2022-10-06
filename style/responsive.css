@@ -3,12 +3,6 @@
         display: block;
         font-size: xx-large;
         cursor: pointer;
-        filter: drop-shadow(2px 2px 5px #72198C);
-    }
-
-    .menuHamburguer:hover {
-        color: #72198C;
-        font-size: xx-large;
     }
 
     .menuItems {

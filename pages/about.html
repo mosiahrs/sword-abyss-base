@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="../style/defaultLayout.css">
     <link rel="stylesheet" href="../style/mainstyle.css">
     <link rel="stylesheet" href="../style/responsive.css">
+    <link rel="stylesheet" href="../style/carousel.css">
+    <link rel="stylesheet" href="../style/sidepanel.css">
 
     <title>The Sword of The Abyss</title>
 </head>
@@ -27,13 +29,59 @@
                 <li class="menuItem"><a href="./donate.html">Donate</a></li>
                 <li class="menuItem"><a href="./contact.html">Contact</a></li>
             </ul>
+            <div id="mySidepanel" class="sidepanel">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+                    <i class="fa-solid fa-xmark"></i>
+                </a>
+                <a href="../index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="play.html">Play Game</a>
+                <a href="donate.html">Donate</a>
+                <a href="contact.html">Contact</a>
+                <br>
+                <figure class="logoPanel">
+                    <img id="logoStudio" src="../assets/dark-theme-removebg-preview.png" width="110">
+                </figure>
+            </div>
 
-            <!-- <i class="fa-solid fa-xmark"></i> ICON FECHAR MENU HAMBURGUER-->
-            <span class="menuHamburguer"><i class="fa-solid fa-bars"></i></span>
+            <button class="menuHamburguer openbtn" onclick="openNav()"> <i class="fa-solid fa-bars"></i> </button>
         </nav>
     </header>
 
     <main>
+        <section class="carouselContainer">
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                    <img src="../assets/Map035.png" style="width:100%">
+                    <div class="text">Caption Text</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="../assets/Map023.png" style="width:100%">
+                    <div class="text">Caption Two</div>
+                </div>
+                <!--
+                <div class="mySlides fade">
+                    <img src="../assets/hero3.png" style="width:100%">
+                    <div class="text">Caption Three</div>
+                </div>
+                -->
+
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+
+            </div>
+            <br>
+
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <!--<span class="dot" onclick="currentSlide(3)"></span>-->
+            </div>
+        </section>
+
+
 
     </main>
 
@@ -41,7 +89,10 @@
         <p> 2022 © 1337 Games copyright </p> <img src="../assets/1337logoMarca.svg" width="80">
     </footer>
 
+    <script src="../js/carousel.js"></script>
+
     <script src="https://kit.fontawesome.com/81d880f28b.js" crossorigin="anonymous"></script>
+    <script src="../js/util.js"></script>
 </body>
 
 </html>
