@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../style/responsive.css">
     <link rel="stylesheet" href="../style/carousel.css">
     <link rel="stylesheet" href="../style/sidepanel.css">
+    <link rel="stylesheet" href="../style/contact.css">
 
     <title>The Sword of The Abyss</title>
 </head>
@@ -49,18 +50,62 @@
     </header>
 
     <main>
+        <section class="formContainer">
 
 
+            <div class="container">
+                <form action="/action_page.php">
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="fname">Nome</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="fname" name="firstname" placeholder="Seu nome..">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="lname">Email</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="lname" name="lastname" placeholder="exemplo@gmail.com">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="tipoContato">Tipo de contato</label>
+                        </div>
+                        <div class="col-75">
+                            <select id="tipoContato" name="tipoContato">
+                                <option value="sugestion">Enviar um feedback</option>
+                                <option value="bug">Relatar um problema</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="subject">Mensagem</label>
+                        </div>
+                        <div class="col-75">
+                            <textarea id="subject" name="subject" placeholder="Escreva algo.."
+                                style="height:200px"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <input type="submit" value="Enviar">
+                    </div>
+                </form>
+            </div>
+        </section>
+        <footer class="footerContat">
 
+            <p> 2022 © 1337 Games copyright </p>
+            <img src="../assets/1337logoMarca.svg" width="80">
 
+        </footer>
     </main>
 
-    <footer>
-        <p> 2022 © 1337 Games copyright </p> <img src="../assets/1337logoMarca.svg" width="80">
-    </footer>
-
     <script src="../js/carousel.js"></script>
-
     <script src="https://kit.fontawesome.com/81d880f28b.js" crossorigin="anonymous"></script>
     <script src="../js/util.js"></script>
 </body>
