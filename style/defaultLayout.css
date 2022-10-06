@@ -17,13 +17,16 @@ body {
 
 .headerMain {
     height: 7vh;
+    min-height: 7vh;
 }
 
 main {
     height: 85vh;
+    min-height: 85vh;
     padding-top: 15px;
 }
 
 footer {
     height: 8vh;
+    min-height: 8vh;
 }

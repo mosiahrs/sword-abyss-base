@@ -13,6 +13,10 @@ textarea {
     background-color: #ccc;
 }
 
+textarea {
+    max-height: 120px;
+}
+
 label {
     padding: 12px 12px 12px 0;
     display: inline-block;
@@ -75,12 +79,5 @@ input[type=submit]:hover {
 
 .formContainer {
     padding: 25px;
-    width: 100%;
-}
-
-.footerContat {
-    width: 100%;
-    height: 35px;
-    position: absolute;
-    bottom: 0;
+    width: 95%;
 }
