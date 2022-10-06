@@ -1,22 +1,32 @@
 @media (max-width: 570px) {
     .menuHamburguer {
         display: block;
-        font-size: x-large;
+        font-size: xx-large;
         cursor: pointer;
+        filter: drop-shadow(2px 2px 5px #72198C);
+    }
+
+    .menuHamburguer:hover {
+        color: #72198C;
+        font-size: xx-large;
     }
 
     .menuItems {
         display: none;
-    }
 
-    .landingContainer {
-        background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.322) 25%), url('../assets/mobile-capa_espada_do_abismo_cropped.png');
-        background-size: cover;
     }
 
     body {
-        min-width: 350px;
-        max-height: 100%;
+        min-width: 320px;
+        min-height: 500px;
+
+    }
+
+    .subBody {
+        background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.322) 35%), url('../assets/mobile-capa_espada_do_abismo_cropped.png');
+        background-size: cover;
+        background-position: 50%;
+        transition: ease 1s;
     }
 
 }

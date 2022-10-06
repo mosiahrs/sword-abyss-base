@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-body {
+.subBody {
     height: 100%;
     width: 100%;
-    background-color: black;
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.322) 35%), url('../assets/capa_espada_do_abismo_cropped.png');
+    background-size: cover;
+    background-position: 50%;
 }
 
 .headerMain,
@@ -50,11 +53,10 @@ main {
 }
 
 .landingContainer {
-    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.322) 25%), url('../assets/capa_espada_do_abismo_cropped.png');
-    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.123) 15%)
 }
 
 #gameLogo {
@@ -72,12 +74,16 @@ main {
     -moz-border-radius: 15;
     border-radius: 15px;
     font-family: 'Gemunu Libre', sans-serif;
-    color: #ffffff;
-    font-size: 20px;
     padding: 10px 20px 10px 20px;
-    text-decoration: none;
+    margin-top: 15px;
     border: none;
     width: 130px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
 }
 
 .btn:hover {
@@ -97,6 +103,6 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: 'Gemunu Libre', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }

@@ -14,34 +14,36 @@
 </head>
 
 <body>
-    <header class="headerMain">
+    <div class="subBody">
+        <header class="headerMain">
 
-        <nav class="mainNav">
-            <figure class="logoContainer">
-                <img id="logoStudio" src="assets/dark-theme-removebg-preview.png" width="110">
+            <nav class="mainNav">
+                <figure class="logoContainer">
+                    <a href=""><img id="logoStudio" src="assets/dark-theme-removebg-preview.png" width="110"></a>
+                </figure>
+                <ul class="menuItems">
+                    <li class="menuItem"><a href="index.html">Home</a></li>
+                    <li class="menuItem"><a href="./pages/about.html">About</a></li>
+                    <li class="menuItem"><a href="./pages/play.html">Play Game</a></li>
+                    <li class="menuItem"><a href="./pages/donate.html">Donate</a></li>
+                    <li class="menuItem"><a href="./pages/contact.html">Contact</a></li>
+                </ul>
+
+                <!-- <i class="fa-solid fa-xmark"></i> ICON FECHAR MENU HAMBURGUER-->
+                <span class="menuHamburguer"><i class="fa-solid fa-bars"></i></span>
+            </nav>
+
+        </header>
+        <main class="landingContainer">
+            <figure>
+                <img id="gameLogo" src="assets/main-logo-nobg.png" width="280">
             </figure>
-            <ul class="menuItems">
-                <li class="menuItem"><a href="index.html">Home</a></li>
-                <li class="menuItem"><a href="./pages/about.html">About</a></li>
-                <li class="menuItem"><a href="./pages/play.html">Play Game</a></li>
-                <li class="menuItem"><a href="./pages/donate.html">Donate</a></li>
-                <li class="menuItem"><a href="./pages/contact.html">Contact</a></li>
-            </ul>
-
-            <!-- <i class="fa-solid fa-xmark"></i> ICON FECHAR MENU HAMBURGUER-->
-            <span class="menuHamburguer"><i class="fa-solid fa-bars"></i></span>
-        </nav>
-
-    </header>
-    <main class="landingContainer">
-        <figure>
-            <img id="gameLogo" src="assets/main-logo-nobg.png" width="280">
-        </figure>
-        <button class="btn">Play Now!</button>
-    </main>
-    <footer>
-        <p> 2022 © 1337 Games copyright </p> <img src="assets/1337logoMarca.svg" width="80">
-    </footer>
+            <button class="btn"><a href="pages/play.html"> Play Now! </a></button>
+        </main>
+        <footer>
+            <p> 2022 © 1337 Games copyright </p> <img src="assets/1337logoMarca.svg" width="80">
+        </footer>
+    </div>
 
     <script src="https://kit.fontawesome.com/81d880f28b.js" crossorigin="anonymous"></script>
 </body>
