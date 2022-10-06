@@ -30,8 +30,13 @@
 .sidepanel .closebtn {
     position: absolute;
     top: 0;
-    right: 25px;
+    right: 0;
     font-size: 36px;
+}
+
+.sidepanel i {
+    color: #9926bd;
+    margin-right: 25px;
 }
 
 .openbtn {
@@ -39,7 +44,7 @@
     color: white;
 }
 
-.logoPanel{
+.logoPanel {
     position: absolute;
     top: 0;
     left: 35px;

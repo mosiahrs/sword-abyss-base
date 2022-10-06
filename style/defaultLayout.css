@@ -21,6 +21,7 @@ body {
 
 main {
     height: 85vh;
+    padding-top: 15px;
 }
 
 footer {
